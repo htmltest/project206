@@ -148,13 +148,13 @@ $(document).ready(function() {
                 }
             } else if (curType == 'tv') {
                 var curValue = curInput.val();
-                if (curValue.length != 15) {
+                if (curValue.length != 20) {
                     curInput.val('RU');
                     curInput.after('<label class="error">Серийный номер должен состоять из 20 символов</label>');
                 }
             } else {
                 var curValue = curInput.val();
-                if (curValue.length != 15) {
+                if (curValue.length != 18) {
                     curInput.after('<label class="error">Серийный номер должен состоять из 18 символов</label>');
                 }
             }
