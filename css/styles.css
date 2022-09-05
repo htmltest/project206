@@ -313,7 +313,7 @@ label.error {display:block; margin:10px 0 0 0; font-weight:normal; font-size:15p
 .form-select select {position:relative; border:1px solid #DADADA; font:normal 24px/28px Arial, sans-serif; color:#000000; vertical-align:top; margin:0; padding:28px 19px 8px 19px; width:100%; height:66px; box-sizing:border-box; outline:none; border-radius:2px; background:#fff; -webkit-appearance:none; transition:border-color 0.2s}
 .form-select label.error {position:absolute; right:0; bottom:0; white-space:nowrap}
 
-.form-checkbox {margin:19px 0 0 0; font-weight:normal; font-size:18px; line-height:21px; color:#646464}
+.form-checkbox {margin:19px 0 0 0; font-weight:normal; font-size:92%; line-height:150%; font-weight:300; color:#646464}
 .form-checkbox::after {content:""; display:block; clear:both}
 .form-checkbox label {float:left; display:block; position:relative}
 .form-checkbox input {display:none}
@@ -326,6 +326,8 @@ label.error {display:block; margin:10px 0 0 0; font-weight:normal; font-size:15p
 .form-checkbox input:checked+span::before,
 .form-checkbox input:checked+label.error+span::before {background-position:center; border-color:#000000; background-color:#000000}
 .form-checkbox label.error {position:absolute; right:0; bottom:0; white-space:nowrap}
+.form-checkbox a {text-decoration:none; border-bottom:1px solid #646464}
+.form-checkbox a:hover {border-bottom-color:transparent}
 
 @media (max-width:479px) {
     .form-checkbox {font-size:13px; line-height:15px}
