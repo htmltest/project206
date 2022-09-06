@@ -42,11 +42,11 @@
                     </div>
                     <div class="main-rules-item">
                         <div class="main-rules-item-title">Примечания</div>
-                        Одно устройство может быть отремонтировано только один раз <sup>2</sup>
+                        Одно устройство может быть отремонтировано только один раз&nbsp;<sup>2</sup>
                     </div>
                     <div class="main-rules-item">
                         <div class="main-rules-item-title">Дата акции</div>
-                        с 00:00 6 сентября 2022<br /> по 23:59 31 октября 2022 МСК <sup>3</sup>
+                        с 00:00 6 сентября 2022<br /> по 23:59 31 октября 2022 МСК&nbsp;<sup>3</sup>
                     </div>
                 </div>
             </div>
@@ -59,9 +59,21 @@
             <div class="main-form-title"><span>realme&nbsp;Care</span> — 1&nbsp;год расширенного гарантийного обслуживания</div>
             <div class="main-form">
                 <form action="ajax/error.json" method="post">
+                    <div class="form-footer-success">
+                        <div class="message message-success">
+                            <div class="message-title">Отправлено</div>
+                            <div class="message-text">Мы проверим, все&nbsp;ли&nbsp;корректно введено и&nbsp;вышлем вам код для&nbsp;расширенного гарантийного обслуживания и&nbsp;инструкции по&nbsp;его&nbsp;использованию.</div>
+                        </div>
+                    </div>
+                    <div class="form-footer-error">
+                        <div class="message message-error">
+                            <div class="message-title">Ошибка</div>
+                            <div class="message-text"></div>
+                        </div>
+                    </div>
                     <div class="form-input form-input-with-hint"><span>IMEI мобильного устройства</span><input type="text" name="imei" value="" class="imei required" /><div class="form-input-hint"><svg><use xlink:href="images/sprite.svg#form-input-hint"></use></svg><div class="form-input-hint-text">Введите IMEI вашего смартфона realme</div></div></div>
                     <div class="form-select">
-                        <select name="model" data-placeholder="Модель устройства*" class="required">
+                        <select name="model" data-placeholder="Модель устройства*" class="required model-select">
                             <option value=""></option>
                             <option value="1" data-type="pad">realme Pad</option>
                             <option value="2" data-type="pad">realme Pad mini</option>
@@ -77,18 +89,6 @@
                     <div class="form-submit"><button type="submit"><span>Подать заявку</span></button></div>
                     <div class="form-footer">
                         <div class="form-footer-link"><a href="#">Правила акции</a></div>
-                        <div class="form-footer-success">
-                            <div class="message message-success">
-                                <div class="message-title">Форма отправлена</div>
-                                <div class="message-text">Мы проверим, все&nbsp;ли&nbsp;корректно введено и&nbsp;вышлем вам код для&nbsp;расширенного гарантийного обслуживания и&nbsp;инструкции по&nbsp;его&nbsp;использованию.</div>
-                            </div>
-                        </div>
-                        <div class="form-footer-error">
-                            <div class="message message-error">
-                                <div class="message-title">Ошибка</div>
-                                <div class="message-text"></div>
-                            </div>
-                        </div>
                     </div>
                 </form>
             </div>
