@@ -209,11 +209,13 @@ ul li::before {content:"•"; display:block; position:absolute; left:0; top:0; w
 .main-rules-notices {margin:71px auto 0 auto; max-width:1040px; text-align:center; font-weight:normal; font-size:28px; line-height:33px; color:rgba(3, 4, 69, 0.4)}
 .main-rules-notice+.main-rules-notice {margin:33px 0 0 0}
 .main-rules-notices sup {font-size:14px; font-weight:500}
+.main-rules-notices span {display:block; color:#FF0000; margin:10px 0 0 0; font-size:20px; line-height:30px}
 
 @media (max-width:1599px) {
     .main-rules-notices {margin:40px auto 0 auto; max-width:755px; font-size:20px; line-height:23px}
     .main-rules-notice+.main-rules-notice {margin:23px 0 0 0}
     .main-rules-notices sup {font-size:10px}
+    .main-rules-notices span {font-size:16px; line-height:24px}
 }
 
 @media (max-width:1199px) {
@@ -224,6 +226,7 @@ ul li::before {content:"•"; display:block; position:absolute; left:0; top:0; w
     .main-rules-notices {margin:33px auto 0 auto; max-width:443px; font-size:18px; line-height:21px}
     .main-rules-notice+.main-rules-notice {margin:21px 0 0 0}
     .main-rules-notices sup {font-size:9px}
+    .main-rules-notices span {font-size:14px; line-height:18px}
 }
 
 @media (max-width:479px) {
