@@ -260,6 +260,20 @@ ul li::before {content:"•"; display:block; position:absolute; left:0; top:0; w
     .main-form {margin:35px auto 0 auto; padding:0 0 40px 0; max-width:290px}
 }
 
+.main-form-end {width:549px; height:551px; margin:50px auto 0 auto; text-align:center; background:rgba(3, 4, 69, 0.05); border:1px solid #DADADA; border-radius:2px; padding:154px 60px 0 60px}
+.main-form-end-icon img {display:block; width:60px; margin:0 auto}
+.main-form-end-title {margin:20px 40px 0 40px; font-size:30px; line-height:39px; color:#030445; opacity:0.5; font-weight:normal}
+.main-form-end-text {margin:20px 0 0 0; font-size:20px; line-height:30px; color:#030445; opacity:0.4; font-weight:500}
+
+@media (max-width:767px) {
+    .main-form-end {width:435px; height:549px; margin:45px auto 0 auto; padding:154px 30px 0 30px}
+}
+@media (max-width:479px) {
+    .main-form-end {width:276px; height:385px; margin:33px auto 0 auto; padding:75px 20px 0 20px}
+    .main-form-end-title {font-size:24px; line-height:31px; margin:20px 0 0 0}
+    .main-form-end-text {font-size:16px; line-height:24px}
+}
+
 .form-input {position:relative; margin:19px 0 0 0}
 .form-input > span {position:absolute; left:20px; top:21px; font-weight:normal; font-size:24px; line-height:28px; color:#000000; opacity:0.5; transition:all 0.2s; pointer-events:none; z-index:1}
 .form-input.focus > span,
